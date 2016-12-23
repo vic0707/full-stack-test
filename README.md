@@ -5,7 +5,7 @@ Full Stack test for TuParroquia developer position.
 
 Welcome! This test covers frontend and backend web development.
 
-You should answer the questions on the following link [questions](https://goo.gl/forms/ui9ukPcILAJNaN1A3) and then create a fork of this repo on github. You can answer the question after finishing the test code.
+You should answer the questions on the following link [questions](https://goo.gl/forms/ui9ukPcILAJNaN1A3) and then create a fork of this repo on github. You can answer the questions after finishing the test code.
 
 Good luck!
 
