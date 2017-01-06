@@ -1,1 +1,5 @@
- <%= react_component 'Posts', { data: @posts } %>
+<%= render "banner" %>
+
+
+<%= render partial: "posts", locals: { posts: @posts }%>
+<%#= react_component 'Posts', { data: @posts } %>
