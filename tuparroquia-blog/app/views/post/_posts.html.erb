@@ -1,4 +1,19 @@
-<% posts.each do |post| %>
-	<h3><%= post.title %></h3>
-	<p><%= post.content %></p>
-<% end %>
+<div class="container">
+	<% posts.each do |post| %>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 post">
+			<h3 class="post-title"><%= post.title %></h3>
+			<h5 class="post-subtitle"><%= post.subtitle %></h5>
+			<p class="post-creator">Escrito por <%= post.creator %></p>
+		</div>
+	</div>
+	<% end %>
+	<div class="row">
+		<div class="col-md-1 col-md-offset-8 post-older">
+			<div class="btn btn-default">
+			<h6>Entradas antiguas <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h6>			
+			</div>
+		</div>
+	</div>
+</div>
+
