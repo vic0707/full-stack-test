@@ -1,5 +1,5 @@
-<%= render "banner" %>
+<%#= render "banner" %>
+<%= react_component 'Banner', {img_src: 'assets/background3.jpg'} %>
 
-
-<%= render partial: "posts", locals: { posts: @posts }%>
-<%#= react_component 'Posts', { data: @posts } %>
+<%#= render partial: "posts", locals: { posts: @posts }%>
+<%= react_component 'Posts', { posts: @posts } %>
