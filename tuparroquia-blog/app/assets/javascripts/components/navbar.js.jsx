@@ -1,5 +1,6 @@
 var Navbar = React.createClass({
   render: function() {
+    // Display navbar
     return(
       <div className="navbar-parroquia navbar-parroquia-fixed">
         <a href="/" className="navbar-parroquia-brand">

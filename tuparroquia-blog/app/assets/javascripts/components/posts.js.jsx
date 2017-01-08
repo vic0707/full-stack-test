@@ -1,5 +1,6 @@
 var Posts = React.createClass({
   render: function() {
+    // Different post entries are saved in posts variable 
     posts = this.props.posts.map( function(post) {
       return (
         <div className="col-md-6 col-md-offset-3 post">
@@ -10,6 +11,7 @@ var Posts = React.createClass({
       );
     });
 
+    // Will return all posts + button to show older entries
     return(
 
       <div className="container">

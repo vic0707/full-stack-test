@@ -1,5 +1,6 @@
 var Footer = React.createClass({
   render: function() {
+    // Display footer
     return(
     	<div className="footer">
     	  <div className="container-fluid">
